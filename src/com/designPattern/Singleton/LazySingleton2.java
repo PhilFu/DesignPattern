@@ -17,15 +17,14 @@ public class LazySingleton2 {
 	
 	public static LazySingleton2 getInstance() {
 		if (singleton == null) {
-			singleton = createInstance();
+			createInstance();
 		}
 		return singleton;
 	}
 	
-	private static synchronized LazySingleton2 createInstance() {
+	private static synchronized void createInstance() {
 		if (singleton == null) {
 			singleton = new LazySingleton2();
 		}
-		return singleton;
 	}
 }
