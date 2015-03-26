@@ -6,6 +6,11 @@ public class Adaptor implements Target {
 
 	@Override
 	public void adaptOperation() {
+		System.out.println("This is adaptor operation");
+	}
+
+	@Override
+	public void operation() {
 		adaptee.operation();
 	}
 }
