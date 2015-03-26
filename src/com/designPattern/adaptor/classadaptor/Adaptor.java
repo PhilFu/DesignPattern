@@ -4,7 +4,7 @@ public class Adaptor extends Adaptee implements Target {
 
 	@Override
 	public void adaptOperation() {
-		operation();
+		System.out.println("This is adapyor operation");
 	}
 
 }
