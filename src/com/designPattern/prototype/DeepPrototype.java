@@ -1,5 +1,12 @@
 package com.designPattern.prototype;
 
+/**
+ * Deep clone: clone an object, both basic type and reference type will be
+ * recreated.
+ * 
+ * @author DeBen
+ *
+ */
 public class DeepPrototype implements Cloneable {
 
 	private String id;

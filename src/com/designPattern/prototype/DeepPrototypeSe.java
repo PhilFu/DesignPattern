@@ -7,6 +7,14 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
+/**
+ * Deep clone, use serialization to write object into pipe, and then read out
+ * with deserialization, the object in pipe is an copy of original object, read
+ * out it and recreate it.
+ * 
+ * @author DeBen
+ *
+ */
 public class DeepPrototypeSe implements Serializable {
 
 	/**

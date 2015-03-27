@@ -1,5 +1,12 @@
 package com.designPattern.adaptor.interfaceadaptor;
 
+/**
+ * If you want to change an object to another new interface, use this, create a
+ * Wrapper class, use an instance of original class
+ * 
+ * @author DeBen
+ *
+ */
 public class InterfaceAdaptorTest {
 
 	public static void main(String[] args) {

@@ -1,5 +1,12 @@
 package com.designPattern.prototype;
 
+/**
+ * Thin clone: clone an object, basic type will be recreated, but reference type
+ * not, still point the original object.
+ * 
+ * @author DeBen
+ *
+ */
 public class ThinPrototype implements Cloneable {
 
 	private String id;
